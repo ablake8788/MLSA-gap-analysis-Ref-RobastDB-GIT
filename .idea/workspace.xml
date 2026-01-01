@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Titanium technology gap analysis Ref.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backup/arch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backup/backup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info_main.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tga_cli/adapters/opener_os.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tga_cli/adapters/sqlserver_presets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tga_cli/backup1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tga_cli/backup2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tga_cli/cli/web_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tga_cli/ports/presets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tga_cli/services/processor_router.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tga_cli/app_factory.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="379j5MREzf8EsfXZPHgAcAw3A9H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Ara/Python/MLSA gap analysis Ref/MLSA_gap analysis Ref_RobastDB",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli" />
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli\logging" />
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref" />
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli\cli" />
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli\services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\tga_cli" />
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tests" />
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="" />
+      <created>1766321997170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766321997170</updated>
+      <workItem from="1766321998323" duration="3387000" />
+      <workItem from="1766497878655" duration="17498000" />
+      <workItem from="1766581750967" duration="6235000" />
+      <workItem from="1766595993984" duration="6517000" />
+      <workItem from="1766671157296" duration="1412000" />
+      <workItem from="1766683902756" duration="1887000" />
+      <workItem from="1766716442716" duration="24242000" />
+      <workItem from="1766864275635" duration="9998000" />
+      <workItem from="1766942092347" duration="53394000" />
+      <workItem from="1767133826539" duration="2884000" />
+      <workItem from="1767155025667" duration="674000" />
+      <workItem from="1767210554409" duration="1404000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tga_cli/TgaCli_Packagebuild.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tga_cli/domain/models.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tga_cli/renderers/html_renderer.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tga_cli/config/ini_config.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tga_cli/app_factory.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
