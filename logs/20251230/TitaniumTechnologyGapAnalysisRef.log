@@ -1,0 +1,43 @@
+2025-12-30 12:47:59,265 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 12:47:59,265 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 12:47:59,505 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 12:47:59,537 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-30 12:47:59,537 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+2025-12-30 12:48:51,350 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 12:48:51,351 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 12:48:51,590 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 12:48:51,622 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-30 12:48:51,623 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+2025-12-30 12:48:51,624 [INFO] werkzeug -  * Restarting with stat
+2025-12-30 12:48:53,105 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 12:48:53,106 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 12:48:53,348 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 12:48:53,361 [WARNING] werkzeug -  * Debugger is active!
+2025-12-30 12:48:53,364 [INFO] werkzeug -  * Debugger PIN: 134-939-777
+2025-12-30 12:50:47,172 [INFO] werkzeug -  * Detected change in 'C:\\Ara\\Python\\MLSA gap analysis Ref\\MLSA_gap analysis Ref_RobastDB\\tga_cli\\cli\\web_controller.py', reloading
+2025-12-30 12:50:47,440 [INFO] werkzeug -  * Restarting with stat
+2025-12-30 12:50:49,336 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 12:50:49,337 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 12:50:49,598 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 12:50:49,612 [WARNING] werkzeug -  * Debugger is active!
+2025-12-30 12:50:49,616 [INFO] werkzeug -  * Debugger PIN: 134-939-777
+2025-12-30 12:53:27,491 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 12:53:27,492 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 12:53:27,751 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 12:56:43,072 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 12:56:43,072 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 12:56:43,305 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 12:57:42,916 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 12:57:42,917 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 12:57:43,175 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 13:03:16,932 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 13:03:16,932 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 13:03:17,168 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2025-12-30 13:03:17,176 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-30 13:03:17,176 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+2025-12-30 22:43:57,141 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251230\TitaniumTechnologyGapAnalysisRef.log
+2025-12-30 22:43:57,141 [INFO] tga_cli - create_app: logging=INFO
+2025-12-30 22:43:57,416 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository

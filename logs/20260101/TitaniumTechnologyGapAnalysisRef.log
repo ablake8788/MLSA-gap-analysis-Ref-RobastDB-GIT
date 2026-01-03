@@ -1,0 +1,312 @@
+2026-01-01 12:21:27,871 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20260101\TitaniumTechnologyGapAnalysisRef.log
+2026-01-01 12:21:27,871 [INFO] tga_cli - create_app: logging=INFO
+2026-01-01 12:21:28,114 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2026-01-01 12:21:28,114 [WARNING] tga_cli - INI resolved to: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\TisGapAnalysisRef.ini (exists=False)
+2026-01-01 12:21:28,114 [WARNING] tga_cli - open_report=False
+2026-01-01 12:35:17,120 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20260101\TitaniumTechnologyGapAnalysisRef.log
+2026-01-01 12:35:17,120 [INFO] tga_cli - create_app: logging=INFO
+2026-01-01 12:35:17,324 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
+2026-01-01 12:35:17,325 [WARNING] tga_cli - INI resolved to: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\MLSA_GapAnalysisRefDB.ini (exists=True)
+2026-01-01 12:35:17,325 [WARNING] tga_cli - open_report=True
+2026-01-01 12:35:17,597 [INFO] tga_cli - Preset hydrated: id=6 name=Compliance & Policy Gap
+2026-01-01 12:35:17,598 [INFO] tga_cli - Hydrated report_options={'include_references': True, 'reference_format': 'appendix', 'citation_level': 'section'}
+2026-01-01 12:35:17,598 [INFO] tga_cli - Prompt controls: preset='compliance_check' extra_len=215
+2026-01-01 12:35:17,599 [INFO] tga_cli - Reading document: C:\Ara\Python\MLSA gap analysis Ref\docs\data_presets\legal\PHCofNJ_AlexG_compliance_V02.docx
+2026-01-01 12:35:17,623 [INFO] tga_cli - Fetching competitor: https://missionarmenia.org
+2026-01-01 12:35:20,568 [INFO] tga_cli - Fetching baseline: https://caritas.am
+2026-01-01 12:35:21,509 [INFO] tga_cli - Calling LLM (model=gpt-4.1-mini)...
+2026-01-01 12:35:21,509 [INFO] tga_cli - FINAL AI PROMPT START
+2026-01-01 12:35:21,509 [INFO] tga_cli - You are a technology analyst. Produce a structured comparison report.
+
+INPUTS
+1) Company document text
+2) Competitor site text
+3) Baseline site text
+
+Compare company vs competitor vs baseline.
+
+--- COMPANY DOCUMENT ---
+Company Overview
+Personal Home Care of New Jersey (PHCOFNJ) is an independently owned home care provider delivering professional in-home services throughout the state of New Jersey.
+Name: Personal Home Care of New Jersey
+Type: Licensed, insured, bonded, and accredited home care service firm
+Address:	11 Deer Park Dr., Suite 102-H, Monmouth Junction, NJ 08852
+Telephone:	Main: 732-230-3540  • Nurses: 732-230-3463  • Fax: 732-274-0700
+Email:		info@phcofnj.com
+Website:	www.phcofnj.com
+Hours:		24 hours a day, 7 days a week (services available)
+Industry:	Home Care / In-Home Personal & Assistive Care Services
+Mission and Philosophy
+Personal Home Care of New Jersey is committed to delivering professional, compassionate, and dependable home care that supports independence, safety, and dignity. Our mission is to help clients remain in their homes and communities while reducing the higher costs and emotional strain of institutional care when home-based support is appropriate.
+Core Services (including but are not limited to)
+Skilled nursing (through partner clinical providers and as permitted by regulation)
+Personal care: bathing, hygiene, transfers, mobility support, toileting assistance, and safety supervision
+Post-hospitalization support and transition assistance (non-clinical, as permitted)
+Post-hospitalization rehabilitation support (non-clinical support alongside therapy plans, as permitted)
+Memory care support: structured routines and safety supervision for clients with Alzheimer’s disease and other dementias
+Hourly and live-in care options
+Parkinson’s support (non-clinical): mobility- and safety-focused assistance and routine support
+Nutrition support: meal preparation and diet-aligned assistance (non-clinical)
+Companionship and communication support
+Light housekeeping and laundry (care-related)
+Medication reminders (non-clinical)
+Appointment companionship and transportation support (as permitted)
+Home safety assessments and fall-risk reduction recommendations
+Respite care / family caregiver relief
+Errands, shopping, and activities (arts/crafts, social participation)
+Handyman-type support for home safety improvements (non-clinical, as appropriate)
+Approach to Care
+We use cutting-edge, AI-enabled technology to improve safety, accountability, and communication for both clients and caregivers. This includes secure mobile tools for caregivers, real-time communication, and remote patient monitoring through connected devices and smart health gadgets that provide timely updates, alerts, and trend insights—helping our team respond earlier when risks arise.
+We use our Hospital-at-Home module to enable doctors to meet with patients through secure video visits, assess symptoms, make clinical decisions, and guide treatment remotely—while coordinating in-home services and follow-up as needed.
+Our technology is designed to connect key branches of care and funding—caregivers, families, providers, and payers, and where applicable state/Medicaid programs and managed care organizations—so everyone operates from the same plan of care. This connected homecare ecosystem strengthens coordination across referrals, transitions of care, and ongoing service delivery in the home and community.
+We also use EVV (Electronic Visit Verification) to confirm visit start/end times and location, strengthen compliance, and ensure transparent service delivery. Care plans, caregiver notes, incidents, and quality indicators are captured digitally and aggregated into dashboards and standardized reports for oversight and quality improvement. AI-driven analytics can flag exceptions (missed visits, unusual patterns, rising fall risk, or changes in condition) to support proactive intervention.
+The agency’s approach is client-centered and culturally sensitive. We provide multilingual support when needed so that communication and cultural preferences are respected.
+PHCOFNJ focuses on individualized care planning, working collaboratively with the client and family to deliver services aligned with personal preferences and care goals.
+We emphasize empathy and professionalism - clients are treated with dignity and respect and are never “just a case number.”
+The agency assists in assessing and updating a home for safety by identifying and recommending modifications that reduce fall risk and other hazards.
+Professional Team
+The care team consists of certified and highly trained professionals experienced in delivering non-medical support services, and—where applicable—coordinating with clinical partners for medical services.
+Corporate Affiliations
+Personal Home Care of New Jersey maintains partnerships with:
+Personal Home Care of North Carolina
+Personal Home Care of Maryland
+Target Clients
+The agency serves a broad range of individuals and families, including:
+Adults recovering from medical events, surgery, or hospitalization (discharge-to-home support)
+Seniors needing daily life support, safety supervision, and help with activities of daily living
+Individuals with chronic conditions who benefit from ongoing assistance, monitoring, and care coordination
+Individuals with cognitive impairment (Alzheimer’s/dementia) who need structure, routine, and safety support
+Clients with mobility limitations, fall risk, or post-rehab needs (safe transfers and home-safety support)
+Individuals with disabilities who need assistance to live independently at home
+Family caregivers seeking respite support, relief coverage, and coordination of services
+Clients requiring long-term in-home assistance to maintain independence and quality of life
+Hospice/palliative-support clients and families needing non-medical supportive care in coordination with clinical providers
+Medicaid/LTC insurance beneficiaries who require authorized services and compliant documentation
+Pediatric clients and families who need in-home support and caregiver relief (as appropriate and within scope of services)
+Reputation & Reviews
+Public review listings indicate that PHCOFNJ is an established local provider with a positive community presence. While detailed user ratings may be limited on major platforms, the agency can provide references, testimonials, and performance reporting upon request.
+PlainText
+@startuml
+title Personal Home Care of New Jersey (PHCOFNJ) — Comprehensive Overview and Approach
+left to right direction
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ranksep 28
+skinparam nodesep 16
+'========================
+' PHCOFNJ — Company Profile
+'========================
+package "PHCOFNJ — Company Overview" as CO {
+  class Org {
+    Name: Personal Home Care of New Jersey (PHCOFNJ)
+    Type: Licensed, insured, bonded, accredited
+    Industry: In-Home Personal & Assistive Care
+    Coverage: New Jersey (statewide)
+    Availability: 24/7 (services available)
+  }
+  class Contact {
+    Address: 11 Deer Park Dr., Suite 102-H\nMonmouth Junction, NJ 08852
+    Phone: Main 732-230-3540
+    Phone: Nurses 732-230-3463
+    Fax: 732-274-0700
+    Email: info@phcofnj.com
+    Web: www.phcofnj.com
+  }
+  Org --> Contact
+}
+note right of CO
+Sourced from PHCOFNJ overview and contact details.
+end note
+'========================
+' Mission & Philosophy
+'========================
+package "Mission & Philosophy" as MP {
+  class Mission {
+    Commitment: Professional, compassionate, dependable care
+    Outcomes: Independence, safety, dignity
+    Purpose: Support clients at home/community\nwhen home-based care is appropriate
+  }
+}
+CO.Org --> MP.Mission
+note right of MP
+Mission statement and rationale for home-based support.
+end note
+'========================
+' Core Services
+'========================
+package "Core Services" as CS {
+  class ClinicalPartners {
+    Skilled nursing: Partner clinical providers\n(as permitted by regulation)
+  }
+  class PersonalAssistive {
+    ADL support: bathing, hygiene, toileting
+    Mobility: transfers + mobility support
+    Safety: supervision
+  }
+  class PostHospital {
+    Transition support: non-clinical (as permitted)
+    Rehab support: non-clinical alongside therapy plans
+  }
+  class ConditionSupport {
+    Memory care: routines + supervision (Alzheimer’s/dementia)
+    Parkinson’s support: mobility/safety assistance (non-clinical)
+  }
+  class DailyLiving {
+    Nutrition support: meal prep (non-clinical)
+    Companionship + communication support
+    Light housekeeping + laundry (care-related)
+    Medication reminders (non-clinical)
+    Appointments: companionship + transport (as permitted)
+    Safety: home assessments + fall-risk reduction
+    Respite care / caregiver relief
+    Errands + shopping + activities
+    Handyman-type safety improvements\n(non-clinical, as appropriate)
+  }
+  class CareOptions {
+    Hourly care
+    Live-in care
+  }
+}
+CO.Org --> CS.ClinicalPartners
+CO.Org --> CS.PersonalAssistive
+CO.Org --> CS.PostHospital
+CO.Org --> CS.ConditionSupport
+CO.Org --> CS.DailyLiving
+CO.Org --> CS.CareOptions
+note right of CS
+Services list and scope qualifiers (e.g., non-clinical/as permitted).
+end note
+'========================
+' Approach to Care & Technology
+'========================
+package "Approach to Care & Technology" as AT {
+  class CareApproach {
+    Client-centered + culturally sensitive
+    Multilingual support when needed
+    Individualized care planning with client/family
+    Empathy + professionalism (dignity/respect)
+    Home safety assessment + modification recommendations
+  }
+  class AIEnabledTools {
+    Secure caregiver mobile tools
+    Real-time communication
+    Remote monitoring: connected devices + smart gadgets
+    Alerts + trends for earlier risk response
+  }
+  class HospitalAtHome {
+    Secure video visits with doctors
+    Remote symptom assessment + clinical decisions
+    Coordinate in-home services + follow-up
+  }
+  class EVVandQuality {
+    EVV: verify visit start/end + location
+    Digital capture: care plans, notes,\nincidents, quality indicators
+    Dashboards + standardized reports
+    AI flags: missed visits, unusual patterns,\nfall risk, condition changes
+  }
+  class ConnectedEcosystem {
+    Connect caregivers, families, providers, payers
+    Align on shared plan of care
+    Support referrals + transitions + ongoing delivery
+    Includes Medicaid/MCO where applicable
+  }
+  CareApproach --> AIEnabledTools
+  AIEnabledTools --> EVVandQuality
+  AIEnabledTools --> HospitalAtHome
+  EVVandQuality --> ConnectedEcosystem
+  HospitalAtHome --> ConnectedEcosystem
+}
+CO.Org --> AT.CareApproach
+CO.Org --> AT.AIEnabledTools
+CO.Org --> AT.HospitalAtHome
+CO.Org --> AT.EVVandQuality
+CO.Org --> AT.ConnectedEcosystem
+note right of AT
+Technology + care approach elements (AI-enabled tools, Hospital-at-Home, ecosystem connectivity, EVV/analytics, and client-centered practices).
+end note
+'========================
+' Professional Team
+'========================
+package "Professional Team" as PT {
+  class Team {
+    Staff: Certified, highly trained professionals
+    Scope: Non-medical support services
+    Coordination: Clinical partners for medical services\n(where applicable)
+  }
+}
+CO.Org --> PT.Team
+note right of PT
+Team composition and coordination model.
+end note
+'========================
+' Corporate Affiliations
+'========================
+package "Corporate Affiliations" as AFF {
+  class Partnerships {
+    Partner: Personal Home Care of North Carolina
+    Partner: Personal Home Care of Maryland
+  }
+}
+CO.Org ..> AFF.Partnerships
+note right of AFF
+Named corporate partnerships.
+end note
+'========================
+' Target Clients
+'========================
+package "Target Clients" as TC {
+  class Segments {
+    Post-event/surgery/hospital discharge support
+    Seniors needing ADL + safety supervision
+    Chronic conditions needing monitoring/care coordination
+    Alzheimer’s/dementia needing routine + safety
+    Mobility limits/fall risk/post-rehab support
+    Disabilities (independent living assistance)
+    Family caregivers needing respite/relief coverage
+    Long-term in-home assistance
+    Hospice/palliative supportive care\n(coordinated with clinical providers)
+    Medicaid/LTC beneficiaries (authorized services + documentation)
+    Pediatric support (as appropriate/within scope)
+  }
+}
+CO.Org --> TC.Segments
+note right of TC
+Target client segments list.
+end note
+'========================
+' Reputation & Reviews
+'========================
+package "Reputation & Reviews" as RR {
+  class Reputation {
+    Presence: Established local provider
+    Notes: Positive community presence
+    Support: References/testimonials/performance reporting\navailable upon request
+  }
+}
+CO.Org --> RR.Reputation
+note right of RR
+Reputation statement and availability of references/reporting.
+end note
+@enduml
+
+--- COMPETITOR (https://missionarmenia.org) ---
+Title: MISSION ARMENIA NGO
+URL: https://missionarmenia.org
+
+1988 թվականին մի խումբ կամավորներ միավորվեցին՝ օգնելու աղետալի երկրաշարժից եւ Արցախյան պատերազմից տուժածներին ու փախստականներին:
+Շուրջ 30 տարիների ընթացքում
+այս ինքնաբուխ մարդասիրական գործունեությունը վերաճեց ու դարձավ ՀՀ սոցիալական աջակցության բնագավառում փորձառությամբ եւ գիտելիքներով իր բացառիկ տեղն ունեցող հզոր
+հասարակական կառույց
+:
+Այսօր «Առաքելություն Հայաստան» ԲՀԿ-ն Հայաստանի Հանրապետությունում (ՀՀ) և Արցախում իր կողմից հիմնած մոտ 3 տասնյակ ենթակառույցների միջոցով hամայնքահեն բազմապիսի ծառայություններ է մատուցում շուրջ
+20,000
+շահառուի։
+
+--- BASELINE (https://caritas.am) ---
+Title: Armenian Caritas
+URL: https://caritas.am
+
+Armenian Caritas is headquartered in Gyumri.
+The organization has about 200 employees and about 80 volunteers. Armenian Caritas operates in the provinces of Shirak, Lori, Gegharkunik, Ararat as well as in the capital, Yerevan. After more than two decades of operation, Armenian Caritas has made positive changes to the lives of thousands of people by implementing countless social and developmental initiatives in 125 communities across Armenia. Today, there are about 50 different programs in place.
+2026-01-01 12:35:21,513 [INFO] tga_cli - FINAL AI PROMPT END

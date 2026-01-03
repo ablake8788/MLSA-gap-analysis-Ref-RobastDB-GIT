@@ -1,0 +1,3 @@
+2025-12-29 21:15:09,618 [INFO] tga_cli - Logging initialized: C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\logs\20251229\TitaniumTechnologyGapAnalysisRef.log
+2025-12-29 21:15:09,618 [INFO] tga_cli - create_app: logging=INFO
+2025-12-29 21:15:09,845 [INFO] tga_cli - create_app: preset_repo=SqlServerPresetRepository
