@@ -6,5 +6,6 @@
 #       readers_docx.py
 #       readers_image.py
 #       # email_smtp.py             # smtplib adapter
+######################################
 
 __all__ = []
