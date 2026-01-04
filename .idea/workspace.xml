@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="first commit" />
+    <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="second commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +105,7 @@
       <workItem from="1766942092347" duration="53394000" />
       <workItem from="1767133826539" duration="2884000" />
       <workItem from="1767155025667" duration="674000" />
-      <workItem from="1767210554409" duration="32506000" />
+      <workItem from="1767210554409" duration="33384000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -131,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767466295781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1767469337937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767469337937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
