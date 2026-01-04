@@ -7,10 +7,12 @@ app = Flask(__name__)
 
 INI_PATH = "MLSA_GapAnalysisRefDB.ini"  # <-- your DB INI
 
+
 # Wire app services once
 ctx = create_app(ini_path=INI_PATH)
 preset_repo = ctx["preset_repo"]
 router = create_processor_router(ini_path=INI_PATH)
+
 
 @app.get("/")
 def index():
@@ -42,6 +44,7 @@ def index():
         "file": "",
         "error": db_error,
     }
+
 
     # 4) If preset selected, fetch from DB and prefill
     if preset_id is not None and db_error is None:
