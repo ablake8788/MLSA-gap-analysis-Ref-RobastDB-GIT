@@ -13,8 +13,6 @@ from tga_cli.domain.models import Preset
 from tga_cli.ports.presets import PresetRepository
 
 log = logging.getLogger("tga_cli")
-
-
 class SqlServerPresetRepository(PresetRepository):
     """
     SQL Server adapter for dbo.GapAnalysisPresets.

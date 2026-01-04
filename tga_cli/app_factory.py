@@ -25,11 +25,8 @@ from tga_cli.renderers.markdown_normalizer import MarkdownNormalizer
 from tga_cli.renderers.html_renderer import HtmlRenderer
 from tga_cli.renderers.docx_renderer import DocxRenderer
 from tga_cli.renderers.pptx_renderer import PptxRenderer
-
 from tga_cli.repositories.report_repository import ReportRepository
 from tga_cli.services.analysis_service import AnalysisService
-
-
 def _resolve_ini_path(ini_path: Optional[str]) -> Path:
     """
     Resolve ini path in a way that works both for normal Python and PyInstaller.
