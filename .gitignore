@@ -1,36 +1,79 @@
-﻿# Python
+﻿# ===============================
+# Python
+# ===============================
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.eggs/
+
+# ===============================
+# Virtual Environments
+# ===============================
 .venv/
 venv/
 env/
-*.egg-info/
+ENV/
+virtualenv/
 
-# Build artifacts
-dist/
-build/
-*.exe
-*.pkg
+# ===============================
+# Configuration / Secrets
+# ===============================
+*.ini
+*.env
+*.cfg
+*.conf
+secrets.*
+config.local.*
 
+# ===============================
+# Logs & Runtime Files
+# ===============================
+*.log
+*.pid
+*.out
+*.err
+
+# ===============================
 # Jupyter
+# ===============================
 .ipynb_checkpoints/
+*.ipynb
 
-# IDE
+# ===============================
+# IDEs / Editors
+# ===============================
 .vscode/
 .idea/
 
-# OS
+# ===============================
+# OS Files
+# ===============================
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Secrets / local config
-.env
-*.ini
+# ===============================
+# Testing / Coverage
+# ===============================
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
 
-backup/
-*.ini
-
-
-backup/
-*.ini
-
+# ===============================
+# Caches / Temporary
+# ===============================
+.cache/
+.tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
