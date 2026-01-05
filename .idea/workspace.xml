@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="4-commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="4-commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +57,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/ablake8788/MLSA.git",
+    "url": "https://github.com/ablake8788/MLSA-gap-analysis-Ref-RobastDB-GIT.git",
     "accountId": "d962cb7b-7c2c-4f39-95dd-1b2a3845c607"
   }
 }]]></component>
@@ -133,7 +131,7 @@
       <workItem from="1767133826539" duration="2884000" />
       <workItem from="1767155025667" duration="674000" />
       <workItem from="1767210554409" duration="33384000" />
-      <workItem from="1767554563848" duration="7018000" />
+      <workItem from="1767554563848" duration="7332000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
