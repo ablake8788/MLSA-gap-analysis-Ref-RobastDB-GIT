@@ -124,6 +124,12 @@ class DocxRenderer:
         while i < len(lines):
             raw = lines[i].rstrip("\n")
             s = raw.strip()
+            #############
+            if s == "---":
+                i += 1
+                continue
+
+            ##############
 
             if s.startswith("```"):
                 in_code = not in_code

@@ -62,7 +62,7 @@ def _build_settings(cfg: IniConfig):
     return cfg.load_settings()
 
 
-def create_app(ini_path: str = "MLSA_GapAnalysisRefDB.ini") -> Dict[str, Any]:
+def create_app(ini_path: str = "TIS_GapAnalysis_Ref_RobastDB.ini") -> Dict[str, Any]:
     """
     Composition root for CLI + Flask.
     Returns wired AnalysisService plus preset_repo.
