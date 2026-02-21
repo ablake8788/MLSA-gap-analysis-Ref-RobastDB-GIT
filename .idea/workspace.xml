@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="4-commit">
-      <change beforePath="$PROJECT_DIR$/.idea/Titanium technology gap analysis Ref.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Titanium technology gap analysis Ref.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MLSA_GapAnalysisRefDB.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/arch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/backup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tga_cli_main - Copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/20251229/TitaniumTechnologyGapAnalysisRef.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/20251230/TitaniumTechnologyGapAnalysisRef.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/20260101/TitaniumTechnologyGapAnalysisRef.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/PlantUml.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/PlantUml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/app_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/app_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/backup2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/backup2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/cli/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/cli/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/cli/web_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/cli/web_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/config/ini_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/config/ini_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/renderers/docx_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/renderers/docx_renderer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tga_cli/renderers/pptx_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/renderers/pptx_renderer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +132,7 @@
       <workItem from="1770060291571" duration="5037000" />
       <workItem from="1770127533309" duration="8168000" />
       <workItem from="1770678232108" duration="601000" />
-      <workItem from="1771095311804" duration="15642000" />
+      <workItem from="1771095311804" duration="19750000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -225,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767572223969</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="4-commit">
+      <option name="closed" value="true" />
+      <created>1771606421163</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771606421163</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
