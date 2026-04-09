@@ -1,4 +1,7 @@
-﻿# project_root/
+﻿### OAuth (Open Authorization) is a standard protocol for secure delegated access.
+
+
+# project_root/
 #   TitaniumTechnologyGapAnalysisRef.ini
 #   tga_cli/
 #     __init__.py
