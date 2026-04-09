@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 #INI_DEFAULT_NAME = "TitaniumTechnologyGapAnalysisRef.ini"
-INI_DEFAULT_NAME = "MLSA_GapAnalysisRefDB.ini"
+INI_DEFAULT_NAME = "TIS_GapAnalysis_Ref_RobastDB.ini"
 
 # def load_settings(ini_path: Path) -> AppSettings:
 #     config = ConfigParser()

@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tga_cli/webapp.py" afterDir="false" />
+    <list default="true" id="30bc0cf4-c535-4dde-bf3d-89b7a52a35e0" name="Changes" comment="4-commit">
+      <change afterPath="$PROJECT_DIR$/info/ETL_Data_Engineering_Responsibilities_CHARTS.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info/archittechture_plant_uml.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Titanium technology gap analysis Ref.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Titanium technology gap analysis Ref.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLSA_GapAnalysisRefDB.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/backup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/tga_cli_main - Copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_main.doc" beforeDir="false" afterPath="$PROJECT_DIR$/info/info_main.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20251229/TitaniumTechnologyGapAnalysisRef.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20251230/TitaniumTechnologyGapAnalysisRef.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20260101/TitaniumTechnologyGapAnalysisRef.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/app_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/app_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/backup2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/backup2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/cli/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/cli/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/cli/web_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/cli/web_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/config/ini_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/config/ini_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/renderers/docx_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/renderers/docx_renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tga_cli/renderers/pptx_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tga_cli/renderers/pptx_renderer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +103,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Ara/Python/MLSA gap analysis Ref/MLSA_gap_analysis_Ref_RobastDB_GIT&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Ara/Python/Titanium Inteligent Soultions backup/TIS_gap_analysis_Ref_RobastDB_GIT/info&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,25 +115,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions backup\TIS_gap_analysis_Ref_RobastDB_GIT\info" />
       <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli" />
       <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli\logging" />
       <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref" />
       <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli\cli" />
-      <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tga_cli\services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ara\Python\Titanium Inteligent Soultions backup\TIS_gap_analysis_Ref_RobastDB_GIT\info" />
       <recent name="C:\Ara\Python\MLSA gap analysis Ref\MLSA_gap analysis Ref_RobastDB\tga_cli" />
       <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref\tests" />
       <recent name="C:\Ara\Python\Titanium Inteligent Soultions\Titanium technology gap analysis Ref" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -134,11 +147,16 @@
       <workItem from="1767133826539" duration="2884000" />
       <workItem from="1767155025667" duration="674000" />
       <workItem from="1767210554409" duration="33384000" />
-      <workItem from="1767554563848" duration="10146000" />
-      <workItem from="1767625831296" duration="26803000" />
-      <workItem from="1767846287489" duration="73000" />
-      <workItem from="1767875518054" duration="5977000" />
-      <workItem from="1767976323830" duration="3441000" />
+      <workItem from="1767554563848" duration="8047000" />
+      <workItem from="1767621955316" duration="2776000" />
+      <workItem from="1768231746287" duration="22710000" />
+      <workItem from="1768352525874" duration="333000" />
+      <workItem from="1768398358538" duration="2737000" />
+      <workItem from="1774898275397" duration="2450000" />
+      <workItem from="1775004332177" duration="3718000" />
+      <workItem from="1775045125045" duration="1407000" />
+      <workItem from="1775057399182" duration="1943000" />
+      <workItem from="1775776057273" duration="2410000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -218,6 +236,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
@@ -252,11 +281,6 @@
           <url>file://$PROJECT_DIR$/tga_cli/app_factory.py</url>
           <line>2</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tga_cli/webapp.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

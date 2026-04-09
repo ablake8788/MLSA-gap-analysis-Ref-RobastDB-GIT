@@ -1,3 +1,66 @@
+
+
+
+
+from __future__ import annotations
+from tga_cli.cli.controller import main
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+
+import logging
+
+from tga_cli.cli.args import parse_args
+from tga_cli.domain.errors import ValidationError, FatalError
+
+logger = logging.getLogger("tga_cli")
+
+
+def main() -> int:
+    args = parse_args()
+
+    # Import inside function to avoid circular imports in PyInstaller onefile mode.
+    from tga_cli.app_factory import create_service
+    from tga_cli.config.ini_config import load_settings, INI_DEFAULT_NAME
+    from tga_cli.adapters.opener_os import open_path
+
+    # If you already have a shared "resolve_ini_path" helper elsewhere, use it.
+    # Otherwise this is a safe minimal resolver:
+    from pathlib import Path
+    import sys
+
+    def resolve_ini_path(filename: str) -> Path:
+        if getattr(sys, "frozen", False):
+            return Path(sys.executable).resolve().parent / filename
+        return Path(__file__).resolve().parents[1] / filename  # project_root/INI
+
+    ini_path = resolve_ini_path(INI_DEFAULT_NAME)
+    settings = load_settings(ini_path)
+
+    svc = create_service()
+
+    try:
+        result = svc.run(args)
+        logger.info("Done. Run folder: %s", result.artifacts.run_dir)
+
+        # Open Word report only if enabled in INI
+        if settings.open_report:
+            open_path(result.artifacts.docx_path)
+
+        return 0 if result.status == "ok" else 2
+
+    except ValidationError as e:
+        logger.error("Validation error: %s", e)
+        return 2
+    except FatalError as e:
+        logger.error("Fatal error: %s", e)
+        return 2
+    except Exception:
+        logger.exception("Unhandled error")
+        return 2
+
+
+
 # architectural design comments for this codebase, including the key design patterns embodied by the structure
 #
 # #############################################
@@ -314,66 +377,5 @@
 # •	Single responsibility: each module has one clear job.
 # •	Boundary discipline: normalization/validation happens at the edges (config/cli), not deep in domain.
 #
-
-
-
-from __future__ import annotations
-from tga_cli.cli.controller import main
-
-if __name__ == "__main__":
-    raise SystemExit(main())
-
-import logging
-
-from tga_cli.cli.args import parse_args
-from tga_cli.domain.errors import ValidationError, FatalError
-
-logger = logging.getLogger("tga_cli")
-
-
-def main() -> int:
-    args = parse_args()
-
-    # Import inside function to avoid circular imports in PyInstaller onefile mode.
-    from tga_cli.app_factory import create_service
-    from tga_cli.config.ini_config import load_settings, INI_DEFAULT_NAME
-    from tga_cli.adapters.opener_os import open_path
-
-    # If you already have a shared "resolve_ini_path" helper elsewhere, use it.
-    # Otherwise this is a safe minimal resolver:
-    from pathlib import Path
-    import sys
-
-    def resolve_ini_path(filename: str) -> Path:
-        if getattr(sys, "frozen", False):
-            return Path(sys.executable).resolve().parent / filename
-        return Path(__file__).resolve().parents[1] / filename  # project_root/INI
-
-    ini_path = resolve_ini_path(INI_DEFAULT_NAME)
-    settings = load_settings(ini_path)
-
-    svc = create_service()
-
-    try:
-        result = svc.run(args)
-        logger.info("Done. Run folder: %s", result.artifacts.run_dir)
-
-        # Open Word report only if enabled in INI
-        if settings.open_report:
-            open_path(result.artifacts.docx_path)
-
-        return 0 if result.status == "ok" else 2
-
-    except ValidationError as e:
-        logger.error("Validation error: %s", e)
-        return 2
-    except FatalError as e:
-        logger.error("Fatal error: %s", e)
-        return 2
-    except Exception:
-        logger.exception("Unhandled error")
-        return 2
-
-
 
 

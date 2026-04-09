@@ -46,7 +46,7 @@ def main() -> int:
     svc = create_service()
 
     # Load INI settings
-    ini_path = resolve_ini_path("MLSA_GapAnalysisRefDB.ini")
+    ini_path = resolve_ini_path("TIS_GapAnalysis_Ref_RobastDB.ini")
     settings = load_settings(ini_path)
 
     logger.warning("INI resolved to: %s (exists=%s)", ini_path, ini_path.exists())

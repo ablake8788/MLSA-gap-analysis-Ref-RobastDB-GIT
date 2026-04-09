@@ -140,6 +140,13 @@ class PptxRenderer:
         while i < len(lines):
             raw = lines[i].rstrip("\n")
             s = raw.strip()
+            ######
+            # Skip markdown horizontal rules so they don't become slide items
+            if s == "---":
+                i += 1
+                continue
+
+            #####
 
             if s.startswith("# "):
                 flush_pending()

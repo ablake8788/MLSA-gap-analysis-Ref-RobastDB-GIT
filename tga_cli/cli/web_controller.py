@@ -5,7 +5,7 @@ from tga_cli.domain.models import RunInputs
 
 app = Flask(__name__)
 
-INI_PATH = "MLSA_GapAnalysisRefDB.ini"  # <-- your DB INI
+INI_PATH = "TIS_GapAnalysis_Ref_RobastDB.ini"  # <-- your DB INI
 
 
 # Wire app services once
