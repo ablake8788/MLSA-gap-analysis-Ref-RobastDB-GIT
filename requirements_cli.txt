@@ -1,0 +1,10 @@
+﻿requests
+beautifulsoup4
+openai
+pytesseract
+pypdf
+python-docx
+Markdown
+python-pptx
+lxml
+pyodbc

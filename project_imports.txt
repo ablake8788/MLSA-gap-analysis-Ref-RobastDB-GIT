@@ -1,0 +1,81 @@
+﻿            FROM {self.table_name}
+            from pdf2image import convert_from_path
+        FROM {self.table_name}
+        FROM INFORMATION_SCHEMA.COLUMNS
+        import logging
+    from readability import Document as ReadabilityDocument
+    from tga_cli.adapters.sqlserver_presets import SqlServerPresetRepository  # adjust if needed
+    from tga_cli.app_factory import create_service
+    from tga_cli.config.ini_config import load_settings
+    from tga_cli.domain.models import AppSettings
+    from tga_cli.logging.setup import resolve_ini_path
+from .analysis_service import AnalysisService
+from .report_repository import ReportRepository
+from .setup import setup_logging
+from .text import truncate, safe_slug, competitor_slug_from_url, build_report_base_name
+from __future__ import annotations
+from bs4 import BeautifulSoup
+from configparser import ConfigParser
+from dataclasses import dataclass
+from dataclasses import replace
+from datetime import datetime
+from docx import Document
+from docx import Document as DocRead
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml.ns import qn
+from docx.shared import Inches, Pt
+from email.message import EmailMessage
+from flask import Flask, request, render_template
+from loging.setup import setup_logging
+from openai import OpenAI
+from pathlib import Path
+from PIL import Image
+from pptx import Presentation
+from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+from pptx.util import Inches, Pt
+from pypdf import PdfReader
+from tga_cli.app_factory import create_app, create_processor_router
+from tga_cli.app_factory import create_service
+from tga_cli.cli.args import parse_args
+from tga_cli.config.ini_config import AppSettings
+from tga_cli.config.ini_config import EmailSettings
+from tga_cli.config.ini_config import load_sqlserver_settings
+from tga_cli.config.ini_config import OcrSettings
+from tga_cli.domain.errors import FatalError
+from tga_cli.domain.errors import FatalError, ValidationError
+from tga_cli.domain.errors import ValidationError
+from tga_cli.domain.models import CliArgs
+from tga_cli.domain.models import CliArgs, RunArtifacts, RunContext, RunResult
+from tga_cli.domain.models import Preset
+from tga_cli.domain.models import Preset, RunInputs, RunResult
+from tga_cli.domain.models import RunContext, RunArtifacts
+from tga_cli.domain.models import RunInputs
+from tga_cli.ports.presets import PresetRepository
+from tga_cli.renderers.references import append_references_appendix
+from tga_cli.services.baseline_policy import choose_baseline, is_blank_baseline
+from tga_cli.services.baseline_policy import is_blank_baseline
+from tga_cli.services.prompt_builder import build_prompt
+from tga_cli.services.url_normalizer import validate_http_url
+from tga_cli.utils.text import truncate, build_report_base_name
+from typing import Any, Dict
+from typing import Any, Dict, List, Optional
+from typing import List, Optional
+from typing import Optional
+from typing import Optional, Dict, Any
+from typing import Protocol
+from typing import Protocol, Optional, List, Dict, Any
+from urllib.parse import urlparse
+import argparse
+import configparser
+import json
+import logging
+import markdown
+import os
+import pyodbc
+import pytesseract
+import re
+import requests
+import smtplib
+import subprocess
+import sys
