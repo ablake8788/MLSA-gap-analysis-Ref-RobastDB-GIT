@@ -189,10 +189,10 @@
 # app_factory ..> Repo
 #
 # @enduml
-
-
-
-
+#
+#
+#
+#
 #
 #
 # @startuml
@@ -374,12 +374,12 @@
 # app_factory ..> Repo
 #
 # @enduml
-
-
-
-
+#
+#
+#
+#
 # mermaid
-
+#
 #
 # %%{init:{
 #   "flowchart":{
@@ -420,10 +420,10 @@
 #   class L4 dom
 #   class L5 ports
 #   class L6 adp
-
-
-
-
+#
+#
+#
+#
 # %%{init: {
 #   "flowchart": {
 #     "curve": "linear",
@@ -465,9 +465,9 @@
 #   class L4 dom
 #   class L5 ports
 #   class L6 adp
-
-
-
+#
+#
+#
 #
 # %%{init:{
 #   "flowchart":{

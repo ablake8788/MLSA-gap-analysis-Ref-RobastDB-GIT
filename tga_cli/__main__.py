@@ -63,8 +63,16 @@ def main() -> int:
 
 # architectural design comments for this codebase, including the key design patterns embodied by the structure
 #
+# *********************************************
+# Key design patterns used
+# •	Application Factory: create_app() builds the app and dependencies.
+# •	Dependency Injection (manual): dependencies are passed into routes and service constructors.
+# •	Service Layer: AnalysisService encapsulates the use case.
+# •	Repository: RunRepository encapsulates filesystem queries.
+# •	Strategy: UrlNormalizer allows you to swap normalization logic.
+## *********************************************
 # #############################################
-# # # composition root (wiring)
+# # # composition root (wiring)cd
 # # project_root/
 # #   TitaniumTechnologyGapAnalysisRef.ini
 # #   tga_cli/
